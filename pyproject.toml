@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,13 +7,14 @@ name = "cfx1-contested-logistics-resource-node"
 version = "0.1.0"
 description = "Engineering software for the CF-X1 Contested Logistics Resource Node."
 requires-python = ">=3.11,<3.14"
-license = { text = "LicenseRef-CF-X1-Evaluation-Only-1.0" }
+license = { file = "LICENSE" }
 authors = [
     { name = "Bryce Lovell" },
 ]
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -24,9 +25,9 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = [
-    "mypy==1.17.1",
-    "pytest==8.4.1",
-    "ruff==0.12.7",
+    "mypy>=1.17,<2",
+    "pytest>=8.4,<9",
+    "ruff>=0.12,<1",
 ]
 
 [tool.setuptools]
@@ -35,6 +36,9 @@ package-dir = { "" = "src" }
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+cfx1 = ["py.typed"]
+
 [tool.ruff]
 target-version = "py311"
 line-length = 100
@@ -42,46 +46,22 @@ src = ["src", "tests", "scripts"]
 
 [tool.ruff.lint]
 select = [
-    "A",
     "ANN",
-    "ARG",
     "B",
-    "C4",
-    "DTZ",
     "E",
     "F",
-    "FA",
-    "FLY",
-    "FURB",
     "I",
-    "ICN",
-    "LOG",
     "N",
-    "PERF",
-    "PIE",
-    "PL",
     "PTH",
-    "PYI",
-    "Q",
-    "RET",
-    "RSE",
     "RUF",
-    "S",
     "SIM",
-    "SLF",
-    "T20",
-    "TC",
     "UP",
     "W",
-]
-ignore = [
-    "ANN401",
-    "PLR2004",
 ]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**/*.py" = ["S101"]
-"scripts/check_green.py" = ["S404", "S603", "T201"]
+"scripts/check_green.py" = ["T201"]
 
 [tool.mypy]
 python_version = "3.11"
