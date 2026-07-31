@@ -1,0 +1,585 @@
+CF-X1 EVALUATION-ONLY SOURCE AND HARDWARE DESIGN LICENSE
+Version 1.0 — July 31, 2026
+
+Copyright © 2026 Bryce Lovell. All rights reserved.
+
+IMPORTANT: READ THIS LICENSE CAREFULLY.
+
+This is a source-available evaluation license. It is not an open-source
+license, a free-software license, a commercial license, a production license,
+or authorization to deploy the CF-X1 system in any operational environment.
+
+By downloading, copying, modifying, compiling, simulating, constructing,
+testing, or otherwise using any portion of the Project Materials, You agree
+to be bound by this License.
+
+If You do not agree to every term of this License, You must not download,
+copy, modify, compile, construct, execute, test, redistribute, or otherwise
+use the Project Materials.
+
+1. DEFINITIONS
+
+1.1. "Licensor" means Bryce Lovell and any successor that lawfully owns the
+applicable copyrights, patent rights, design rights, trade-secret rights,
+trademark rights, or other proprietary rights in the Project Materials.
+
+1.2. "You" and "Your" mean the individual or legal entity exercising rights
+under this License.
+
+1.3. "Project" means the CF-X1 Contested Logistics Resource Node and its
+underlying IX ContinuumFoundry technology family.
+
+1.4. "Software Materials" means all source code, object code, scripts,
+configuration files, data schemas, tests, models, simulations, control logic,
+firmware, interfaces, documentation, and related software artifacts
+distributed as part of the Project.
+
+1.5. "Hardware Materials" means all schematics, circuit descriptions, wiring
+information, mechanical drawings, diagrams, bills of materials,
+specifications, calculations, models, assembly instructions, test procedures,
+safety analyses, process descriptions, interface definitions, and other
+materials describing physical systems or components distributed as part of
+the Project.
+
+1.6. "Project Materials" means the Software Materials and Hardware Materials,
+including any portion, copy, adaptation, translation, modification,
+derivative work, or implementation of them.
+
+1.7. "Evaluation" means internal, non-commercial examination performed solely
+to understand, audit, assess, simulate, test, validate, critique, study,
+teach, or conduct non-production research concerning the Project.
+
+1.8. "Evaluation Prototype" means a non-production and non-deployed physical
+assembly constructed solely for internal Evaluation in a controlled
+laboratory, workshop, or test environment.
+
+1.9. "Commercial Use" means any use intended for or resulting in direct or
+indirect commercial advantage, monetary compensation, revenue, profit, cost
+recovery, paid service, paid research, paid consulting, funded deliverable,
+competitive advantage, product development, customer demonstration,
+manufacturing activity, or support of a revenue-generating activity.
+
+1.10. "Operational Deployment" means use of the Project Materials or any
+implementation of them to provide, support, control, protect, sustain, or
+influence an actual operational, production, infrastructure, public-safety,
+military, intelligence, law-enforcement, emergency-response, medical,
+transportation, industrial, utility, residential, or commercial function.
+
+1.11. "Redistribution" means providing, publishing, transmitting,
+sublicensing, selling, leasing, assigning, hosting for download, mirroring,
+or otherwise making any Project Materials available to another person or
+entity outside Your permitted internal Evaluation Group.
+
+1.12. "Evaluation Group" means Your employees, students, faculty,
+researchers, contractors, or government personnel who require access solely
+to conduct a permitted Evaluation on Your behalf and who are bound by written
+obligations at least as protective as this License.
+
+1.13. "Third-Party Materials" means software, hardware designs, datasets,
+documentation, or other materials identified as being owned or licensed by a
+party other than the Licensor.
+
+2. LIMITED EVALUATION LICENSE
+
+Subject to continuous compliance with this License, the Licensor grants You
+a limited, personal, revocable, non-exclusive, non-transferable,
+non-sublicensable, royalty-free license to:
+
+a. view and inspect the Project Materials;
+
+b. make a reasonable number of internal copies solely for permitted
+Evaluation;
+
+c. execute, compile, test, analyze, and simulate the Software Materials solely
+in a non-production Evaluation environment;
+
+d. modify the Project Materials privately and internally solely as reasonably
+necessary to conduct a permitted Evaluation;
+
+e. construct Evaluation Prototypes solely for controlled, non-production,
+non-deployed Evaluation; and
+
+f. share the Project Materials within Your Evaluation Group solely as
+necessary to conduct the same permitted Evaluation.
+
+No right is granted except those expressly stated in this Section.
+
+3. GOVERNMENT, ACADEMIC, AND NONPROFIT EVALUATION
+
+3.1. A government agency, military department, federally funded research and
+development center, national laboratory, public university, private
+university, or nonprofit research institution may conduct an internal
+Evaluation under Section 2.
+
+3.2. Government, academic, or nonprofit status does not authorize Commercial
+Use, Operational Deployment, procurement, production, manufacture,
+redistribution, technology transfer, incorporation into an operational
+program, or delivery as a funded contractual work product.
+
+3.3. Any procurement, funded development, production, manufacturing,
+integration, fielding, operational testing, operational military use, or
+other use outside the limited Evaluation rights granted by this License
+requires a separate written agreement signed by the Licensor.
+
+3.4. No rights are granted under the Federal Acquisition Regulation, Defense
+Federal Acquisition Regulation Supplement, Other Transaction Authority,
+cooperative agreement, grant, procurement contract, subcontract, or similar
+instrument merely because a government entity accesses or evaluates the
+Project Materials.
+
+4. PROHIBITED USES
+
+Unless the Licensor provides separate prior written permission signed by the
+Licensor, You must not:
+
+a. use the Project Materials for any Commercial Use;
+
+b. earn revenue, profit, fees, compensation, royalties, commissions, grants,
+contract payments, investment consideration, or other financial benefit from
+the Project Materials or an implementation of them;
+
+c. sell, license, sublicense, rent, lease, offer, commercialize, monetize, or
+otherwise exploit the Project Materials;
+
+d. provide paid consulting, integration, development, training, testing,
+certification, support, maintenance, analysis, or other compensated services
+based on or materially using the Project Materials;
+
+e. manufacture, fabricate, assemble, commission, or procure units for sale,
+lease, operational use, customer delivery, inventory, production validation,
+or commercial demonstration;
+
+f. use the Project Materials or an implementation of them in production;
+
+g. conduct any Operational Deployment;
+
+h. deploy or field the Project Materials or an implementation of them for
+military, intelligence, law-enforcement, security, emergency-response,
+critical-infrastructure, utility, industrial, medical, residential, or public
+use;
+
+i. incorporate the Project Materials into any commercial product, service,
+platform, hosted offering, managed service, operational system, procurement
+deliverable, or production system;
+
+j. operate the Software Materials as a hosted service, software-as-a-service,
+platform-as-a-service, application-programming-interface service, managed
+service, or remote processing service for another person or entity;
+
+k. Redistribute the Project Materials, whether modified or unmodified;
+
+l. publish or publicly distribute modifications, derivatives, forks, mirrors,
+archives, compiled versions, extracted datasets, translated versions, or
+hardware implementations of the Project Materials;
+
+m. transfer, assign, delegate, or sublicense rights granted by this License;
+
+n. remove, obscure, alter, replace, or misrepresent any copyright, license,
+attribution, provenance, safety, limitation, or proprietary notice;
+
+o. claim or imply that the Licensor, Project, or Project Materials are
+affiliated with, sponsored by, endorsed by, approved by, certified by,
+procured by, tested by, or adopted by any government agency, military
+organization, standards body, laboratory, university, company, or other
+organization without documented authorization from that organization;
+
+p. claim that the Project or an implementation is certified, qualified,
+potable-water approved, code compliant, military qualified, production ready,
+field ready, safe for unattended operation, or authorized for Operational
+Deployment unless the claim is supported by applicable independent evidence
+and authorization;
+
+q. conceal, falsify, exaggerate, double-count, or misrepresent energy, water,
+gas, thermal, emissions, carbon, safety, performance, readiness, validation,
+or certification data;
+
+r. bypass, disable, remove, defeat, or materially weaken safety controls,
+interlocks, evidence controls, human-authorization controls, shutdown logic,
+fault isolation, operating limits, or audit mechanisms, except during a
+controlled Evaluation specifically examining that control and conducted
+without Operational Deployment;
+
+s. use the Project Materials in violation of applicable law, regulation,
+standard, permit, export control, sanctions requirement, environmental rule,
+workplace-safety requirement, pressure-system requirement, electrical code,
+fire code, gas-handling requirement, or hazardous-material requirement; or
+
+t. use the Project Materials to create or support a weapon, weapon component,
+targeting system, destructive device, or system intended to injure persons or
+damage property.
+
+5. CONDITIONS OF PERMITTED EVALUATION
+
+Every permitted Evaluation must:
+
+a. remain non-commercial and non-production;
+
+b. remain under competent human supervision;
+
+c. use facilities, protective equipment, instrumentation, ventilation,
+electrical protection, pressure protection, gas detection, fire protection,
+emergency procedures, and qualified personnel appropriate to the hazards
+involved;
+
+d. preserve all copyright, license, attribution, provenance, safety, and
+limitation notices;
+
+e. keep all copies and private modifications under access controls appropriate
+to prevent unauthorized use or Redistribution;
+
+f. maintain a written record identifying the Evaluation purpose, responsible
+personnel, tested configuration, applicable hazards, source of components,
+operating limits, results, anomalies, and disposition of Evaluation
+Prototypes;
+
+g. distinguish clearly among calculated, simulated, bench-demonstrated,
+independently validated, certified, and operationally proven results;
+
+h. avoid representing projections, simulations, assumptions, estimates, or
+design targets as measured physical performance;
+
+i. use the Project Materials only for the duration reasonably necessary to
+complete the permitted Evaluation; and
+
+j. discontinue use immediately if continued Evaluation would create an
+uncontrolled risk to people, property, infrastructure, or the environment.
+
+6. EVALUATION PROTOTYPES
+
+6.1. Evaluation Prototypes are permitted only for internal Evaluation and
+must not be sold, leased, transferred, delivered to a customer, used to
+fulfill a contract, placed into service, or Operationally Deployed.
+
+6.2. Evaluation Prototypes must not use improvised pressure vessels,
+improvised compressed-gas storage, improvised hydrogen storage, unverified
+oxygen-service components, defeated protective devices, or components
+operated outside their documented ratings.
+
+6.3. Any activity involving hydrogen, oxygen enrichment, pressure, high
+current, high voltage, concentrated chemicals, contaminated water, rotating
+machinery, thermal extremes, or stored energy must be performed only by
+persons competent to identify and control the associated hazards.
+
+6.4. Evaluation Prototypes must be de-energized, depressurized, purged,
+rendered non-operational, securely retained for further permitted Evaluation,
+or responsibly dismantled when the Evaluation ends.
+
+6.5. Permission to construct an Evaluation Prototype is not a representation
+that the design is complete, safe, certified, code compliant, suitable for a
+particular purpose, or capable of achieving any stated target.
+
+7. BATTERY-FREE REPRESENTATION
+
+For purposes of the Project, "battery-free" means that the reference
+architecture does not rely on electrochemical battery storage.
+
+The term does not mean that the Project creates energy, operates without an
+energy source, violates conservation laws, provides unlimited endurance, or
+eliminates the need for storage.
+
+The reference architecture may use externally supplied or locally harvested
+energy, segmented supercapacitor storage, thermal storage, conditioned
+electrical buses, and produced chemical energy.
+
+You must not use the term "battery-free" in a false, misleading, or
+thermodynamically unsupported manner.
+
+8. SAFETY, REGULATORY, AND ENGINEERING RESPONSIBILITY
+
+8.1. The Project Materials are research and engineering materials. They are
+not a substitute for qualified engineering judgment, hazard analysis, code
+review, site-specific design, permitting, certification, inspection,
+commissioning, or independent validation.
+
+8.2. The Licensor does not authorize You to rely on the Project Materials as
+the sole basis for protecting life, health, property, infrastructure, mission
+success, environmental compliance, or regulatory compliance.
+
+8.3. You are solely responsible for determining and satisfying every law,
+regulation, code, standard, permit, inspection, certification, training,
+supervision, and safety requirement applicable to Your Evaluation.
+
+8.4. Any bill of materials, supplier reference, component example, cost
+estimate, lead-time estimate, country-of-origin record, substitution rule, or
+procurement record is informational and configuration-specific. You must
+independently verify current availability, authenticity, suitability,
+compatibility, ratings, provenance, and legal eligibility before use.
+
+8.5. No software test, simulation, digital twin, calculation, code review, or
+repository status can establish that physical hardware has been correctly
+assembled, safely commissioned, independently validated, certified, or
+approved for use.
+
+9. OWNERSHIP AND RESERVATION OF RIGHTS
+
+9.1. The Project Materials are licensed, not sold.
+
+9.2. As between You and the Licensor, the Licensor retains all right, title,
+and interest in and to the original Project Materials, including all
+copyrights, patent rights, trade-secret rights, design rights, trademark
+rights, and other intellectual-property rights.
+
+9.3. You retain ownership of original material You independently create,
+subject to the Licensor's ownership of the Project Materials and subject to
+the restrictions of this License on any modification, derivative,
+implementation, or combined work that contains, incorporates, or is based on
+the Project Materials.
+
+9.4. All rights not expressly granted by this License are reserved.
+
+10. LIMITED PATENT LICENSE FOR EVALUATION
+
+10.1. To the extent the Licensor owns patent claims that would necessarily be
+infringed solely by exercising the Evaluation rights expressly granted in
+Section 2, the Licensor grants You a limited, revocable, non-exclusive,
+non-transferable, non-sublicensable, royalty-free patent license solely for
+that permitted Evaluation.
+
+10.2. No patent license is granted for Commercial Use, production,
+manufacturing for sale, procurement, Operational Deployment, paid services,
+Redistribution, sublicensing, or any use outside Section 2.
+
+10.3. The limited patent license terminates automatically when this License
+terminates.
+
+10.4. If You or an entity acting on Your behalf initiates or maintains a
+patent claim alleging that the Project Materials or their permitted use
+infringe a patent, every patent license granted to You under this License
+terminates immediately.
+
+11. TRADEMARKS AND PUBLIC REPRESENTATIONS
+
+11.1. This License grants no right to use the names, marks, logos, trade
+dress, or branding of Bryce Lovell, CF-X1, CF-X1 Contested Logistics Resource
+Node, IX ContinuumFoundry, IX FluxReserve, MatterForge, Atmosphere Loom,
+ContinuumCell, or any related designation except as reasonably necessary to
+identify the Project accurately during a permitted Evaluation.
+
+11.2. You must not use any Project name or mark in a manner suggesting
+sponsorship, endorsement, partnership, certification, government affiliation,
+procurement status, operational acceptance, or commercial authorization.
+
+12. THIRD-PARTY MATERIALS
+
+12.1. Third-Party Materials are governed by their respective licenses and
+notices.
+
+12.2. This License does not grant rights that the Licensor does not possess.
+
+12.3. Where a file, directory, component, dataset, or document carries a
+separate license or notice, that separate license or notice controls for that
+material.
+
+12.4. You must preserve all third-party license and attribution requirements.
+
+12.5. Inclusion of a third-party component reference, supplier example, part
+number, standard, publication, or interface does not imply endorsement,
+availability, compatibility, authorization, or transfer of third-party
+rights.
+
+13. NO REDISTRIBUTION OR PUBLIC DERIVATIVES
+
+13.1. You may not Redistribute the Project Materials.
+
+13.2. You may not publish a fork, mirror, archive, translated copy, modified
+copy, derivative work, compiled distribution, container image, package,
+hosted instance, hardware-design package, fabrication package, or Evaluation
+Prototype derived from the Project Materials.
+
+13.3. Internal sharing within Your Evaluation Group is permitted only while
+each recipient:
+
+a. requires access for the same permitted Evaluation;
+
+b. is informed of this License;
+
+c. is bound by written obligations at least as protective as this License; and
+
+d. does not retain or use the Project Materials after that person's
+Evaluation role ends.
+
+13.4. Public discussion of independently observed Evaluation results is not
+prohibited, provided that You do not Redistribute Project Materials, disclose
+protected material not already made public by the Licensor, misrepresent the
+Project, violate another obligation, or imply endorsement or certification.
+
+14. CONTRIBUTIONS
+
+14.1. The Licensor is not obligated to accept contributions, pull requests,
+patches, issues, design suggestions, test results, or other submissions.
+
+14.2. Unless the Licensor separately agrees in writing, submitting material
+to the Project does not grant the submitter any ownership, commercial,
+production, procurement, deployment, or licensing right in the Project
+Materials.
+
+14.3. A submission does not modify this License or create a partnership,
+agency relationship, joint venture, employment relationship, fiduciary duty,
+or obligation to compensate the submitter.
+
+15. NO SUPPORT, MAINTENANCE, OR UPDATES
+
+The Licensor has no obligation to provide support, maintenance, training,
+consulting, updates, corrections, security patches, replacement components,
+certification assistance, safety review, integration assistance, or continued
+access to the Project Materials.
+
+16. TERMINATION
+
+16.1. This License and every right granted under it terminate automatically
+and immediately if You breach any term.
+
+16.2. Upon termination, You must:
+
+a. stop using the Project Materials;
+
+b. stop operating every Evaluation Prototype;
+
+c. de-energize, depressurize, purge, and secure every Evaluation Prototype as
+appropriate;
+
+d. destroy or permanently delete all copies and private modifications in Your
+possession or control, except records that applicable law requires You to
+retain; and
+
+e. confirm compliance in writing if the Licensor reasonably requests it.
+
+16.3. Sections concerning ownership, prohibited uses, safety responsibility,
+third-party materials, disclaimers, limitation of liability,
+indemnification, and provisions that by their nature should survive will
+survive termination.
+
+16.4. Termination does not limit any remedy available to the Licensor.
+
+17. DISCLAIMER OF WARRANTIES
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PROJECT MATERIALS ARE PROVIDED
+"AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.
+
+THE LICENSOR DISCLAIMS ALL EXPRESS, IMPLIED, STATUTORY, AND OTHER WARRANTIES,
+INCLUDING WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS, SAFETY, RELIABILITY,
+AVAILABILITY, PERFORMANCE, COMPATIBILITY, SECURITY, CERTIFICATION, REGULATORY
+COMPLIANCE, AND RESULTS.
+
+THE LICENSOR DOES NOT WARRANT THAT THE PROJECT MATERIALS:
+
+a. are error-free or complete;
+
+b. will pass any test or achieve any performance target;
+
+c. are suitable for construction or operation;
+
+d. comply with any law, code, standard, contract, procurement requirement, or
+mission requirement;
+
+e. will produce potable water, safe gas, usable power, cooling, hydrogen,
+oxygen, carbon products, or any other output;
+
+f. will operate safely or continuously;
+
+g. are appropriate for unattended, remote, military, emergency, industrial,
+medical, residential, or critical-infrastructure use; or
+
+h. do not infringe third-party rights.
+
+18. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT WILL THE LICENSOR BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE,
+CONSEQUENTIAL, OR OTHER DAMAGES; LOSS OF LIFE; PERSONAL INJURY; PROPERTY
+DAMAGE; ENVIRONMENTAL DAMAGE; LOSS OF DATA; LOSS OF REVENUE; LOSS OF PROFITS;
+LOSS OF USE; PROCUREMENT COST; BUSINESS INTERRUPTION; MISSION FAILURE;
+EQUIPMENT FAILURE; FIRE; EXPLOSION; ELECTRICAL EVENT; GAS RELEASE; PRESSURE
+EVENT; CONTAMINATION; CORROSION; OR REGULATORY CONSEQUENCE ARISING FROM OR
+RELATED TO THE PROJECT MATERIALS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+IF APPLICABLE LAW DOES NOT PERMIT COMPLETE EXCLUSION OF LIABILITY, THE
+LICENSOR'S TOTAL AGGREGATE LIABILITY ARISING FROM OR RELATED TO THE PROJECT
+MATERIALS WILL NOT EXCEED ONE HUNDRED UNITED STATES DOLLARS (US $100).
+
+19. INDEMNIFICATION
+
+To the maximum extent permitted by law, You agree to defend, indemnify, and
+hold harmless the Licensor from claims, demands, proceedings, losses,
+liabilities, penalties, damages, judgments, settlements, and reasonable costs
+arising from or related to:
+
+a. Your use of the Project Materials;
+
+b. Your Evaluation Prototype;
+
+c. Your breach of this License;
+
+d. Your violation of law, regulation, code, standard, permit, or third-party
+right;
+
+e. injury, death, property damage, environmental damage, contamination, fire,
+explosion, gas release, electrical event, or pressure event connected to Your
+activities; or
+
+f. a representation made by You concerning the Project, its capabilities, its
+safety, its readiness, its certification, or the Licensor.
+
+This Section does not require indemnification to the extent prohibited by law
+for a particular government entity.
+
+20. EXPORT, SANCTIONS, AND LEGAL COMPLIANCE
+
+You are solely responsible for determining whether access to, transfer of, or
+use of the Project Materials is restricted by export-control law, sanctions,
+procurement law, technology-transfer restrictions, hazardous-material law, or
+other applicable requirements.
+
+You must not export, re-export, transfer, disclose, or use the Project
+Materials in violation of applicable law.
+
+21. SEPARATE COMMERCIAL, PRODUCTION, OR OPERATIONAL RIGHTS
+
+Commercial Use, production, procurement, manufacture, Redistribution,
+integration, Operational Deployment, paid services, and every right not
+expressly granted by Section 2 require a separate written agreement signed by
+the Licensor.
+
+No purchase order, request for proposal, funding notice, contract, grant,
+cooperative agreement, other transaction, subcontract, statement of work,
+email, message, repository issue, repository pull request, contribution,
+evaluation report, or oral statement modifies this License unless the
+Licensor expressly signs a written amendment or separate license.
+
+22. NO WAIVER
+
+A failure or delay by the Licensor to enforce any provision is not a waiver.
+
+A waiver is effective only if it is in writing, identifies the provision
+being waived, and is signed by the Licensor.
+
+23. SEVERABILITY
+
+If a provision of this License is held unenforceable, it will be enforced to
+the maximum extent permitted, and the remaining provisions will remain in
+effect.
+
+24. INTERPRETATION
+
+Headings are for convenience only.
+
+"Including" means "including without limitation."
+
+A prohibition against an act includes causing, assisting, authorizing, or
+permitting another person or entity to perform that act.
+
+The singular includes the plural and the plural includes the singular where
+the context permits.
+
+25. ENTIRE AGREEMENT
+
+This License is the complete agreement governing the rights granted in the
+Project Materials and supersedes prior or contemporaneous statements
+concerning those rights.
+
+Any additional or different right requires a separate written agreement
+signed by the Licensor.
+
+END OF LICENSE
