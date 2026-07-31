@@ -29,6 +29,19 @@ def test_project_identity_rejects_empty_repository_name() -> None:
         )
 
 
+def test_project_identity_rejects_non_positive_commit_count() -> None:
+    """The locked program must contain at least one commit."""
+    with pytest.raises(ValueError, match="total_commits must be greater than zero"):
+        ProjectIdentity(
+            repository_name="CF-X1-Contested-Logistics-Resource-Node",
+            product_name="CF-X1 Contested Logistics Resource Node",
+            platform_family="IX ContinuumFoundry",
+            description="Valid description.",
+            total_commits=0,
+            final_readme_commit=0,
+        )
+
+
 def test_project_identity_rejects_misaligned_readme_commit() -> None:
     """The README lock must remain aligned with the final program commit."""
     with pytest.raises(ValueError, match="final_readme_commit must equal total_commits"):
