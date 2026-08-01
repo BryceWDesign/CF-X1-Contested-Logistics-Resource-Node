@@ -21,17 +21,67 @@ class Check:
 
 
 CHECKS: Final[tuple[Check, ...]] = (
-    Check("ruff-format", (sys.executable, "-m", "ruff", "format", "--check", ".")),
-    Check("ruff-lint", (sys.executable, "-m", "ruff", "check", ".")),
-    Check("mypy", (sys.executable, "-m", "mypy", "src", "tests", "scripts")),
-    Check("pytest", (sys.executable, "-m", "pytest")),
+    Check(
+        "repository-policy",
+        (
+            sys.executable,
+            "scripts/check_repository_policy.py",
+        ),
+    ),
+    Check(
+        "ruff-format",
+        (
+            sys.executable,
+            "-m",
+            "ruff",
+            "format",
+            "--check",
+            ".",
+        ),
+    ),
+    Check(
+        "ruff-lint",
+        (
+            sys.executable,
+            "-m",
+            "ruff",
+            "check",
+            ".",
+        ),
+    ),
+    Check(
+        "mypy",
+        (
+            sys.executable,
+            "-m",
+            "mypy",
+            "src",
+            "tests",
+            "scripts",
+        ),
+    ),
+    Check(
+        "pytest",
+        (
+            sys.executable,
+            "-m",
+            "pytest",
+        ),
+    ),
 )
 
 
 def run_check(check: Check) -> None:
     """Run one check and stop immediately when it fails."""
-    print(f"[CF-X1] running {check.name}: {' '.join(check.command)}", flush=True)
-    subprocess.run(check.command, cwd=REPOSITORY_ROOT, check=True)
+    print(
+        f"[CF-X1] running {check.name}: {' '.join(check.command)}",
+        flush=True,
+    )
+    subprocess.run(
+        check.command,
+        cwd=REPOSITORY_ROOT,
+        check=True,
+    )
 
 
 def main() -> int:
@@ -40,7 +90,10 @@ def main() -> int:
         for check in CHECKS:
             run_check(check)
     except subprocess.CalledProcessError as error:
-        print(f"[CF-X1] quality gate failed with exit code {error.returncode}", flush=True)
+        print(
+            f"[CF-X1] quality gate failed with exit code {error.returncode}",
+            flush=True,
+        )
         return error.returncode
 
     print("[CF-X1] all quality gates passed", flush=True)
