@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project": {
+    "repository_name": "CF-X1-Contested-Logistics-Resource-Node",
+    "product_name": "CF-X1 Contested Logistics Resource Node",
+    "platform_family": "IX ContinuumFoundry"
+  },
+  "ownership": {
+    "copyright_holder": "Bryce Lovell",
+    "copyright_year": 2026,
+    "license_file": "LICENSE",
+    "license_identifier": "LicenseRef-CF-X1-Evaluation-Only-1.0"
+  },
+  "implementation": {
+    "origin": "standalone",
+    "source_of_truth": "this-repository",
+    "donor_repository_dependency": false,
+    "generated_from_donor_source": false,
+    "third_party_materials_present": false,
+    "third_party_material_policy": "segregate-and-document"
+  }
+}
