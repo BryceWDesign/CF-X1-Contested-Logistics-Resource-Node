@@ -29,6 +29,13 @@ CHECKS: Final[tuple[Check, ...]] = (
         ),
     ),
     Check(
+        "project-provenance",
+        (
+            sys.executable,
+            "scripts/check_provenance.py",
+        ),
+    ),
+    Check(
         "ruff-format",
         (
             sys.executable,
@@ -77,6 +84,7 @@ def run_check(check: Check) -> None:
         f"[CF-X1] running {check.name}: {' '.join(check.command)}",
         flush=True,
     )
+
     subprocess.run(
         check.command,
         cwd=REPOSITORY_ROOT,
